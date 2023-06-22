@@ -2,10 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - This fuction determines if a number is positive or negative or zero.
- * Return: 0 as sucess
- */
+/**
+ * main - Entry point of program
+ *
+ * This function determines is a given number is ppositive or negative.
+ *
+ * Return: 0 (success)
+ **/
 int main(void)
 {
 	int n;

@@ -16,11 +16,11 @@ int main(void)
 		putchar(lowercase);
 	}
 
-	for (uppercase = 'a'; uppercase <= 'z'; uppercase++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
 		putchar(uppercase);
 	}
 
 	putchar('\n');
-	return(0);
+	return (0);
 }

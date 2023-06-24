@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - This program writes out the the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * main - Entry point of program
  *
- * Return - 0 sucess
- */
+ * This program writes out the the alphabet in lowercase, and uppercase.
+ * Return - (0) success
+ **/
 int main(void)
 {
 	char lowercase;
@@ -22,5 +23,4 @@ int main(void)
 
 	putchar('\n');
 	Return(0);
-
 }

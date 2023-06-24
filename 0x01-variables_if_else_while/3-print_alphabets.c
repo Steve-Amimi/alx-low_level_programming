@@ -4,7 +4,7 @@
  * main - Entry point of program
  *
  * This program writes out the the alphabet in lowercase, and uppercase.
- * Return - (0) success
+ * Return: (0) success
  **/
 int main(void)
 {

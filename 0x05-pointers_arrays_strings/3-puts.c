@@ -3,6 +3,8 @@
 /**
  * _puts - function that prints a string, followed by a new line
  *
+ * @str: string parameter
+ *
  * Return: 0
  **/
 void _puts(char *str)
@@ -12,4 +14,4 @@ void _puts(char *str)
 		_putchar(*str++);
 	}
 		_putchar('\n');
-}			
+}

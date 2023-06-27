@@ -7,7 +7,7 @@
  *
  * Return: 0
  **/
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int longe = 0;
 	int o;

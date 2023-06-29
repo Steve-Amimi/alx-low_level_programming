@@ -18,8 +18,11 @@ int main(void)
 		{
 			putchar('0' + a);
 			putchar('0' + b);
+		if (i != 8 || j != 9)
+		{
 			putchar(',');
 			putchar(' ');
+		}
 		}
 	}
 	putchar('\n');

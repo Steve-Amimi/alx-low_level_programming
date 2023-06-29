@@ -12,11 +12,9 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = 0; a <= 99; a++)
+	for (a = 0; a <= 98; a++)
 	{
-		for (b = 0; b <= 99; b++)
-		{
-		if (a <= b)
+		for (b = a + 1; b <= 99; b++)
 		{
 			putchar('0' + a / 10);
 			putchar('0' + a % 10);
